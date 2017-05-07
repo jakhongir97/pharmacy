@@ -1,0 +1,116 @@
+
+.toggle{
+  background-color:black;
+  color:white;
+  height:40px;
+  background-color:#F79361;
+  width:100%;
+  font-family: tahoma;
+  font-weight:bold;
+  font-size:25px;
+  
+ 
+}
+
+.close{
+  color:white;
+  float:right;
+  cursor:pointer;
+  margin-right:30px;
+  margin-top:10px;
+  font-weight:bold;
+  font-size:30px;
+  font-family: tahoma;
+}
+
+
+.contain{
+  background-color:black;
+  height:50px;
+  
+}
+
+.containmain{
+  background-color:#F79361;
+  width:100%;
+  display:none;
+  
+}
+.center{
+  margin: 0 auto;
+  width:400px;
+  padding-top:1%;
+  padding-bottom:100%;
+}
+
+.profile{
+  margin-top:30px;
+  margin-left:150px;
+  width:150px;
+  height:150px;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+  background: url('http://www.naircare.co.uk/images/main/hub/bg-face.jpg') no-repeat;
+  background-position:100% 20%;
+  background-size:125%;
+  -webkit-transition-duration: 0.6s; -moz-transition-duration: 0.6s; -o-transition-duration: 0.6s; transition-duration: 0.6s; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; transition-property: transform; overflow:hidden; 
+}
+
+.profile:hover	 { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -o-transform:rotate(360deg); }
+
+
+input {
+     width:100%;
+    outline: none;
+    padding: 25px;
+  border:none;
+  
+    
+}
+
+input[type=submit] {
+  
+  background: black;
+  border:none;
+  color:white;
+  width:300px;
+  font-size:15px;
+
+}
+
+input[type=submit]:hover{
+  
+color:grey;
+
+}
+
+.form{
+  
+  width:250px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+.topform{
+  border-bottom:2px solid lightgrey;
+  margin:0px;
+  background-image: url('http://www.flaticon.com/png/256/16612.png');
+  background-repeat: no-repeat;
+  background-color:white;
+  background-size: 7%;
+  background-position: 50% 50%;
+}
+
+
+
+
+.bottomform{
+  margin-top:0px;
+  margin-bottom:20px;
+  background-image: url('http://www.flaticon.com/png/256/25239.png');
+  background-repeat: no-repeat;
+  background-color:white;
+  background-size: 11%;
+  background-position: 50% 50%;
+}
